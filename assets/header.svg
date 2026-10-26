@@ -1,0 +1,72 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agegnehu Yelib Tesfa — software developer</title>
+  <desc id="desc">A dark developer-themed banner with glowing green and cyan accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="20" x2="1120" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#071A17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="268" y1="0" x2="909" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <radialGradient id="glowGreen">
+      <stop stop-color="#22C55E" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue">
+      <stop stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="420" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <circle cx="128" cy="86" r="280" fill="url(#glowGreen)"/>
+    <circle cx="1090" cy="350" r="330" fill="url(#glowBlue)"/>
+
+    <g opacity="0.76" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+      <rect x="72" y="55" width="1056" height="42" rx="12" fill="#111C2E" stroke="#334155"/>
+      <circle cx="96" cy="76" r="5" fill="#FB7185"/>
+      <circle cx="114" cy="76" r="5" fill="#FBBF24"/>
+      <circle cx="132" cy="76" r="5" fill="#34D399"/>
+      <text x="166" y="81" fill="#64748B">~/github/agegnehuy</text>
+      <text x="953" y="81" fill="#22C55E">● available</text>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="98" y="153" fill="#22C55E" font-size="20" font-weight="600">&gt; hello_world</text>
+      <text x="98" y="222" fill="#F8FAFC" font-size="52" font-weight="750" letter-spacing="-2">AGEGNEHU YELIB TESFA</text>
+      <rect x="98" y="246" width="672" height="4" rx="2" fill="url(#accent)" filter="url(#softGlow)"/>
+      <text x="98" y="292" fill="#CBD5E1" font-size="21">Full-stack developer · Creative builder · Problem solver</text>
+      <text x="98" y="342" fill="#94A3B8" font-size="17">I turn ambitious ideas into thoughtful digital experiences.</text>
+      <rect x="738" y="327" width="10" height="21" rx="2" fill="#22C55E">
+        <animate attributeName="opacity" values="1;0.15;1" dur="1.15s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(955 166)" opacity="0.9">
+      <path d="M0 70L70 0L140 70L70 140Z" stroke="url(#accent)" stroke-width="2"/>
+      <path d="M26 70L70 26L114 70L70 114Z" stroke="#475569"/>
+      <circle cx="70" cy="70" r="12" fill="#22C55E" filter="url(#softGlow)">
+        <animate attributeName="r" values="10;14;10" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="70" r="4" fill="#38BDF8"/>
+      <circle cx="140" cy="70" r="4" fill="#2DD4BF"/>
+      <circle cx="70" cy="0" r="4" fill="#22C55E"/>
+      <circle cx="70" cy="140" r="4" fill="#38BDF8"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#334155" stroke-opacity="0.85" stroke-width="2"/>
+</svg>
